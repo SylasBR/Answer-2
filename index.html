@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>answer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        body {
+            background-image: url(./Cores.png);
+        }
+        
+        .text {
+            font: 35pt Arial;
+            margin: 0;
+            background: rgb(241, 241, 241);
+            border: solid white;
+            border-radius: 50px;
+            position: absolute;
+            top: 10%;
+            left: 51%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+        
+        .button {
+            display: inline-block;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-left: 448px;
+            margin-top: 20rem;
+        }
+        
+        .bnt-Yelow {
+            border: solid white;
+            font: 15pt Arial;
+            background: #fffe88;
+            padding: 1rem 2rem;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 0 rgb(177, 177, 40);
+        }
+        
+        .bnt-Yelow:hover {
+            border: solid white;
+            font: 15pt Arial;
+            background: rgb(212, 212, 62);
+            padding: 1rem 2rem;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 0 rgb(177, 177, 40);
+        }
+        
+        .bnt-Green {
+            border: solid white;
+            font: 15pt Arial;
+            background: #aeffbf;
+            padding: 1rem 2rem;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 0 rgb(46, 134, 72);
+        }
+        
+        .bnt-Green:hover {
+            border: solid white;
+            font: 15pt Arial;
+            background: rgb(55, 167, 89);
+            padding: 1rem 2rem;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 0 rgb(46, 134, 72);
+        }
+        
+        .bnt-Blue {
+            border: solid white;
+            font: 15pt Arial;
+            background: #9af0ff;
+            padding: 1rem 2rem;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 0 #1b5b66;
+        }
+        
+        .bnt-Blue:hover {
+            border: solid white;
+            font: 15pt Arial;
+            background: #3797a8;
+            padding: 1rem 2rem;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 0 #1b5b66;
+        }
+        
+        .bnt-Lilac {
+            border: solid white;
+            font: 15pt Arial;
+            background: #aa81fc;
+            padding: 1rem 2rem;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 0 #483769;
+        }
+        
+        .bnt-Lilac:hover {
+            border: solid white;
+            font: 15pt Arial;
+            background: #7a5bb8;
+            padding: 1rem 2rem;
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 5px 0 #483769;
+        }
+        
+        .audio {
+            margin-top: 10%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="Pagina Inicial">
+        <main>
+            <div class="header-1">
+                <div class="button">
+                    <a href="./Yelow.html" class="bnt-Yelow">Yelow</a>
+                    <a href="./Green.html" class="bnt-Green">Green</a>
+                    <a href="./Blue.html" class="bnt-Blue">Blue</a>
+                    <a href="./Lilac.html" class="bnt-Lilac">Lilac</a>
+                </div>
+        </main>
+    </header>
+</body>
+
+<body>
+    <div class="text">
+        <script>
+            var nome = window.prompt('Qual é seu Nome?')
+            document.write('Olá, ' + nome + '! Escolha uma cor.')
+            saveAs(nome)
+        </script>
+    </div>
+</body>
+
+</html>
